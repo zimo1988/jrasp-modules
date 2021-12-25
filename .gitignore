@@ -1,0 +1,19 @@
+## for IDEA
+.idea
+*.iml
+
+## for maven
+target/
+deploy/
+**/target/
+## for eclipse and vscode
+.classpath
+.project
+.settings
+.factorypath
+
+## for vim
+*.swp
+*.swo
+*.swn
+
