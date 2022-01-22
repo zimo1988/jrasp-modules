@@ -22,5 +22,6 @@
         <module>weblogic</module>
         <module>xxe</module>
         <module>mysql</module>
+        <module>jni</module>
     </modules>
 </project>
