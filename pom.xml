@@ -23,5 +23,6 @@
         <module>xxe</module>
         <module>mysql</module>
         <module>jni</module>
+        <module>dependency</module>
     </modules>
 </project>
