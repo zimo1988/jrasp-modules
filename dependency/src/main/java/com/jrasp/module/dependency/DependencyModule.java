@@ -58,7 +58,7 @@ public class DependencyModule extends ModuleLifecycleAdapter implements Module {
     }
 
     // 12小时上报一次
-    private static final long FREQUENCY = 12;
+    private static final long FREQUENCY = 12*60*60;
 
     private AtomicBoolean initialize = new AtomicBoolean(false);
 
@@ -80,7 +80,7 @@ public class DependencyModule extends ModuleLifecycleAdapter implements Module {
                         logger.error("error occurred when report sca", e);
                     }
                 }
-            }, 1, FREQUENCY, TimeUnit.HOURS); // to avoid dead lock, init time could not be 0
+            }, 1, FREQUENCY, TimeUnit.SECONDS); // to avoid dead lock, init time could not be 0
         }
     }
 
