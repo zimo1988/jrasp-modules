@@ -5,7 +5,7 @@
 
 jrasp-agent的安全模块,目前支持的模块有:
 
-rce、xxe、mysql、file、jetty、tomcat、weblogic、jni
+dependency、jni、rce、xxe、mysql、file、jetty、tomcat、weblogic
 
 ## 使用
 
